@@ -6,4 +6,5 @@ Works fine on Windows.
 
 ### how to reproduce`
 - Clone this repo
-- `cargo run` on macOS
+- `cargo run --bin webview` on macOS to see blocking webview
+- `cargo run --bin window_only` is a winit window showing that it's not blocking
